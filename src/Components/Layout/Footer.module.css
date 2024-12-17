@@ -1,0 +1,26 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.icon{
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.icon:hover{
+    color: #ffbb33;
+    cursor: pointer;
+}
+.copy_right span{
+    color: #ffbb33;
+}
