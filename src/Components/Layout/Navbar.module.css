@@ -25,3 +25,17 @@
 .item a:hover{
     color: #ffbb33;
 }
+.navbar img{
+    transition: 0.3s;
+}
+.navbar img:hover{
+    animation: bounce 0.5s;
+}
+@keyframes bounce{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}
